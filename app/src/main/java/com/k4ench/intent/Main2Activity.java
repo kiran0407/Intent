@@ -24,7 +24,7 @@ TextView e2;
         e2=(TextView) findViewById(R.id.textView3);
         final Intent intent = getIntent();
         String name = intent.getStringExtra("acd");
-        e2.setText("hi  "+name+"!!!");
+        e2.setText("hi  "+name+"!!");
 
         setTitle(name);
 
